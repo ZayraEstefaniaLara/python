@@ -1,7 +1,7 @@
 # python
 1. [Figuras sin constructor](https://github.com/ZayraEstefaniaLara/python/commit/aa156ff543781632f55a3d982730a27823aa6ffb)
 2. [Figuras con parámetros](https://github.com/ZayraEstefaniaLara/python/commit/aa156ff543781632f55a3d982730a27823aa6ffb)
-3. [Cálculo de un polinomio]()
+3. [Cálculo de un polinomio](https://github.com/ZayraEstefaniaLara/python/commit/aa156ff543781632f55a3d982730a27823aa6ffb)
 4. [Encapsulamiento]()
 5. [Uso de Numpy]()
 6. [Abstracción]()
