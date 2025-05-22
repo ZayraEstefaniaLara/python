@@ -6,7 +6,7 @@
 5. [Uso de Numpy]()
 6. [Abstracción](https://github.com/ZayraEstefaniaLara/python/commit/e8c2629960fa3cd74c479575805c62eb80361627)
 7. [Herencia](https://github.com/ZayraEstefaniaLara/python/blob/main/herencia2.py)
-8. [Polimorfismo]()
+8. [Polimorfismo](https://github.com/ZayraEstefaniaLara/python/blob/main/Polimorfismo.py)
 9. [Enumeraciones]()
 10. [Diseño avanzado de clases]()
 13. [Arreglos, listas, conjuntos y diccionarios]()
