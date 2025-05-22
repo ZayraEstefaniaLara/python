@@ -4,7 +4,7 @@
 3. [Cálculo de un polinomio](https://github.com/ZayraEstefaniaLara/python/commit/aa156ff543781632f55a3d982730a27823aa6ffb)
 4. [Encapsulamiento](https://github.com/ZayraEstefaniaLara/python/commit/c03064ca5d716de3f0ed168f706c11ffe3db64dd)
 5. [Uso de Numpy]()
-6. [Abstracción]()
+6. [Abstracción](https://github.com/ZayraEstefaniaLara/python/commit/e8c2629960fa3cd74c479575805c62eb80361627)
 7. [Herencia]()
 8. [Polimorfismo]()
 9. [Enumeraciones]()
