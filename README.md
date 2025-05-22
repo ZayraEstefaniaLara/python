@@ -1,2 +1,16 @@
 # python
-hola
+1. [Figuras sin constructor]()
+2. [Figuras con parámetros]()
+3. [Cálculo de un polinomio]()
+4. [Encapsulamiento]()
+5. [Uso de Numpy]()
+6. [Abstracción]()
+7. [Herencia]()
+8. [Polimorfismo]()
+9. [Enumeraciones]()
+10. [Diseño avanzado de clases]()
+13. [Arreglos, listas, conjuntos y diccionarios]()
+14. [Uso de JSON]()
+15. [Introducción a Flask]()
+16. [Manejo de Hilos]()
+
