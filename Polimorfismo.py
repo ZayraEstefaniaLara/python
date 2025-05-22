@@ -1,19 +1,26 @@
-class Gato():
-    def sonido(self):
-        return "miau"
-    
-class Perro():
-    def sonido(self):
+class Animal:
+    def _init_(self, nombre):
+        self.nombre = nombre
+
+    def hacerSonido(self):
+        pass
+
+class Perro(Animal):
+    def hacerSonido(self):
         return "guau"
-    
-def hacerSonido(animal):
-    print(animal.sonido())
 
-gato = Gato()
-perro = Perro()
+class Gato(Animal):
+    def hacerSonido(self):
+        return "miau"
 
-print(perro.sonido())
-print(gato.sonido())
+class Caballo(Animal):
+    def hacerSonido(self):
+        return "bufuru"
 
-
-hacerSonido(perro)
+#-------------------------------------Progaming iniciating------------------------------------------
+unAnimal = Perro("Alex Turner")
+otroAnimal = Gato("Estación3030")
+elAnimal = Caballo("Gertrudis")
+print(unAnimal.nombre, " hace ", unAnimal.hacerSonido())
+print(otroAnimal.nombre, " hace ", otroAnimal.hacerSonido())
+print(elAnimal.nombre, " hace ", elAnimal.hacerSonido())
