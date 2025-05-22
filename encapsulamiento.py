@@ -1,6 +1,14 @@
-class MiClase:
-    def __init__(self):
-        self._atributoPrivado = 'valor'
-        
-objeto = MiClase()
-print(objeto._atributoPrivado)
+class CuentaDeBanco:
+    def _init_ (self, nombre, nip, saldo):
+        self.nombre = nombre
+        self.__nip = nip
+        self.__saldo = saldo
+    
+    def mostrarSaldo(self):
+        return self.__saldo
+
+#---------------------------------------Iniciating programing
+tarjeta = CuentaDeBanco("Karol Hernandez", 1234, 500)
+print(tarjeta.nombre)
+print(tarjeta.mostrarSaldo())
+#print(tarjeta.__nip)
