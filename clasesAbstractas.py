@@ -1,29 +1,25 @@
-from abc import ABC, abstractclassmethod
+from abc import ABC, abstractmethod
 
-class Persona (ABC):
-    @abstractclassmethod
-    def __init__(self,nombre,edad,sexo,trabajo, actividad):
-        self.nombre = nombre
-        self.edad = edad
-        self.sexo = sexo
-        self.trabajo = trabajo
-        self.actividad = actividad
-        
-    @abstractclassmethod
-    def hacerActividad(self):
+class Actor(ABC):
+    def _init_(self, personaje, papel):
+        self.personaje = personaje
+        self.papel = papel
+    
+    @abstractmethod
+    def decirDialogo(self):
         pass
-    
-    def precentarse(self):
-        print(f'Hola,me llamo:{self.nombre} y tengo {self.edad}años')
-        
-class Estudiante(Persona):
-    def __init__(self,nombre,edad,sexo,actividad):
-        super().__init__(nombre,edad,sexo,actividad)
-    
-    def hacerActividad(self):
-        print(f"Estoy estudianto: {self.actividad}")
 
+class Villano(Actor):
+    def decirDialogo(self):
+        print(f"Hola, soy {self.personaje} y soy el {self.papel} de la historia. ¡Temedme!")
 
-dalto = Estudiante("Lucas",21,"Masculino","Programador")
+class Primario(Actor):
+    def decirDialogo(self):
+        print(f"Hola, soy {self.personaje} y soy el {self.papel} de la historia. ¡Acompáñame en esta aventura!")
 
-dalto.hacerActividad()
+#-----------------------------------------------------------
+unRandom = Villano("Rumpelstiltskin", "antagonista")
+otroRandom = Primario("Shrek", "protagonista")
+
+unRandom.decirDialogo()
+otroRandom.decirDialogo()
